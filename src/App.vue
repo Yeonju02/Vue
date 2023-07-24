@@ -20,7 +20,7 @@
   <div v-for="i in onerooms" :key="i">
     <img :src="i.image " class="room-img">
     <h4 @click="모달창열렸니 = true">{{ i.title }}</h4>
-    <p>{{ i.price }}만원</p>
+    <p>{{ i.price }}원</p>
   </div>
   
 
